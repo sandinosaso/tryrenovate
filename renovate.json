@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+  {
+   "packageNames": [
+    "react*"
+   ],
+   "rangeStrategy": "bump"
+  }
+ ],
+ "rangeStrategy": "replace"
+}
